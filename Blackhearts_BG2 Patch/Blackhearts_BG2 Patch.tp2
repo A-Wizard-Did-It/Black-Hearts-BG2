@@ -1,0 +1,17 @@
+BACKUP ~Blackhearts_BG2 Patch/Backup~
+AUTHOR ~AWizardDidIt~
+
+VERSION ~v1.0~
+
+LANGUAGE
+	~English~
+	~English~
+	
+~Blackhearts_BG2 Patch/tra/English/BHBG2setup.tra~
+~Blackhearts_BG2 Patch/tra/English/BHBG2script.tra~
+
+BEGIN @1
+
+COMPILE "Blackhearts_BG2 Patch/Dialog" USING ~Blackhearts_BG2/tra/%LANGUAGE%/BHBG1script.tra~
+
+COPY ~Blackhearts_BG2 Patch/Graphics~ "override"
